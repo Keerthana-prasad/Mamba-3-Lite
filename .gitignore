@@ -1,0 +1,89 @@
+# ==========================================
+# Python & Bytecode
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ==========================================
+# Virtual Environments
+# ==========================================
+venv/
+.venv/
+env/
+.env/
+ENV/
+env.bak/
+venv.bak/
+
+# ==========================================
+# Large Datasets & Caches (CRITICAL: 541MB train.txt exceeds GitHub 100MB limit)
+# ==========================================
+dataset/train.txt
+dataset/.cache/
+*.cache/
+.cache/
+
+# ==========================================
+# Large Model Weights & Checkpoints
+# ==========================================
+checkpoints/*.pt
+!checkpoints/novelty_comparative_results.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+
+# ==========================================
+# Scratch / Temporary Files
+# ==========================================
+extracted_paper_text.txt
+*.tmp
+*.log
+
+# ==========================================
+# LaTeX Auxiliary Build Files 
+# ==========================================
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.log
+*.lot
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+*.nav
+*.snm
+*.vrb
+
+# ==========================================
+# IDE & System Files
+# ==========================================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
